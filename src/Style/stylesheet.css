@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Staatliches&display=swap");
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  margin: 10% 34%;
+  border-radius: 10px;
+  border: #1a8fdd 0.4vw solid;
+}
+
+.container .space {
+  width: 20%;
+}
+
+.app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  float: left;
+  border-left: #1a8fdd solid 1px;
+  border-radius: 5px;
+  padding-left: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.app h1 {
+  font-family: 'Staatliches', cursive;
+  font-size: 3vw;
+  border-left: #1a8fdd solid 0.7vw;
+  background-color: #8cc4e9;
+}
+
+.app .field {
+  font-size: 1vw;
+  -ms-flex-preferred-size: 3vw;
+      flex-basis: 3vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.app .field input {
+  width: 8vw;
+}
+
+.app .field label {
+  text-decoration: underline;
+}
+
+.app button {
+  font-size: 2vw;
+  background-color: transparent;
+  font-family: 'Staatliches', cursive;
+  margin-top: 10%;
+  margin-bottom: 35%;
+}
+
+.app button:hover {
+  background-color: #476eee;
+}
+
+.app .btn_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#notes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#notes .note {
+  padding: 3%;
+  width: 9vw;
+  border-radius: 5px;
+  margin: 2%;
+  background-color: #cac2c2;
+}
+
+a {
+  font-family: 'Staatliches', cursive;
+  text-decoration: none;
+  color: black;
+  background-color: #8cc4e9;
+  margin-bottom: 10%;
+  border-left: #292c2e solid 0.7vw;
+}
+
+a:hover {
+  animation: FadeIn ease-in-out 4s;
+  -webkit-animation: FadeIn ease-in-out 4s;
+}
+
+@-webkit-keyframes FadeIn {
+  0% {
+    border-left: #292c2e solid 0.7vw;
+  }
+  20% {
+    border-left: #64b0e4 solid 0.7vw;
+  }
+  40% {
+    border-left: #419fdd solid 0.7vw;
+  }
+  60% {
+    border-left: #3095d8 solid 0.7vw;
+  }
+  80% {
+    border-left: #1a8fdd solid 0.7vw;
+  }
+  100% {
+    border-left: #1a8fdd 0.7vw;
+  }
+  80% {
+    border-left: #1a8fdd solid 0.7vw;
+  }
+  60% {
+    border-left: #3095d8 solid 0.7vw;
+  }
+  40% {
+    border-left: #419fdd solid 0.7vw;
+  }
+  20% {
+    border-left: #64b0e4 solid 0.7vw;
+  }
+  0% {
+    border-left: #292c2e solid 0.7vw;
+  }
+}
+
+@keyframes FadeIn {
+  0% {
+    border-left: #292c2e solid 0.7vw;
+  }
+  20% {
+    border-left: #64b0e4 solid 0.7vw;
+  }
+  40% {
+    border-left: #419fdd solid 0.7vw;
+  }
+  60% {
+    border-left: #3095d8 solid 0.7vw;
+  }
+  80% {
+    border-left: #1a8fdd solid 0.7vw;
+  }
+  100% {
+    border-left: #1a8fdd 0.7vw;
+  }
+  80% {
+    border-left: #1a8fdd solid 0.7vw;
+  }
+  60% {
+    border-left: #3095d8 solid 0.7vw;
+  }
+  40% {
+    border-left: #419fdd solid 0.7vw;
+  }
+  20% {
+    border-left: #64b0e4 solid 0.7vw;
+  }
+  0% {
+    border-left: #292c2e solid 0.7vw;
+  }
+}
+/*# sourceMappingURL=stylesheet.css.map */

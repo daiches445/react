@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Staatliches&display=swap');
+// font-family: 'Source Sans Pro', sans-serif;
+// font-family: 'Staatliches', cursive;
+
+$primary_blue:rgb(26, 143, 221);
+$secondry_blue:rgb(140, 196, 233);
+.container{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin: 10% 34% ;
+    border-radius: 10px;
+    border: $primary_blue 0.4vw solid;
+    .space{
+        width: 20%;
+
+    }
+
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: space-between;
+    justify-content: space-between;
+    float: left;
+    border-left: $primary_blue solid 1px;
+    border-radius: 5px;
+    padding-left: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    h1{
+        font-family: 'Staatliches', cursive;
+        font-size: 3vw;
+        border-left: $primary_blue solid 0.7vw;
+        background-color: $secondry_blue;
+
+        // margin-right: 25%;
+    }
+    .field{
+        font-size: 1vw;
+        flex-basis:3vw;
+        display: flex;
+        flex-direction: column;
+        input{
+            width: 8vw;
+        }
+        label{
+            text-decoration: underline;
+        }
+        
+    }
+
+    button{
+        font-size: 2vw;
+        // margin :10%;
+        background-color:transparent ;
+        font-family: 'Staatliches', cursive;
+        margin-top: 10%;
+        margin-bottom: 35%;
+
+
+
+        &:hover{
+            background-color: rgb(71, 110, 238);
+        }
+    }
+    .btn_link{
+    display:flex;
+    flex-direction:column;
+    align-items: baseline;
+    justify-content:space-around;
+
+    }
+
+
+}
+#notes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .note{
+        padding: 3%;
+        width: 9vw;
+        border-radius: 5px ;
+        margin: 2%;
+        background-color: rgb(202, 194, 194);
+    }
+
+}
+a{
+    font-family: 'Staatliches', cursive;
+    text-decoration: none;
+    color: black;
+    background-color: $secondry_blue;
+    margin-bottom: 10%;
+    border-left: rgb(41, 44, 46) solid 0.7vw;
+    &:hover{
+       
+        animation: FadeIn ease-in-out 4s;
+       -webkit-animation: FadeIn ease-in-out 4s;
+    }
+
+
+}
+@keyframes FadeIn{
+    0%{border-left: rgb(41, 44, 46) solid 0.7vw;}
+    20%{border-left: rgb(100, 176, 228) solid 0.7vw;}
+    40%{border-left: rgb(65, 159, 221) solid 0.7vw;}
+    60%{border-left: rgb(48, 149, 216) solid 0.7vw;}
+    80%{border-left: rgb(26, 143, 221) solid 0.7vw;}
+    100%{border-left: $primary_blue  0.7vw;}
+    80%{border-left: rgb(26, 143, 221) solid 0.7vw;}
+    60%{border-left: rgb(48, 149, 216) solid 0.7vw;}
+    40%{border-left: rgb(65, 159, 221) solid 0.7vw;}
+    20%{border-left: rgb(100, 176, 228) solid 0.7vw;}
+    0%{border-left: rgb(41, 44, 46) solid 0.7vw;}
+        
+}
